@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: roboto, consolas, sans-serif;
+    font-family: 'Roboto', consolas, sans-serif;
 }
 
 .header {
@@ -69,8 +69,9 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding: 5px 20px 5px 20px;
+    padding: 8px 20px 8px 20px;
     margin-top: 15px;
+    font-size: 16px;
 }
 
 .sign-up:hover {
@@ -121,4 +122,92 @@ body {
 
 .p-subtext {
     color: rgba(0,0,0,0.7);
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+    padding: 122px 145px;
+}
+
+.author {
+    font-weight: 700;
+    font-size: x-large;
+    float: right;
+    margin-right: 140px;
+    margin-top: -123px;
+}
+
+.section {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 100px;
+    border: 3px solid #3882F6;
+    border-radius: 7px;
+    color: #F9FAF8;
+}
+
+.action {
+    flex: 2;
+    padding: 30px 41px;
+}
+
+.call-action {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.sign-btn {
+    flex: 1;    
+    text-align: center;
+}
+
+.sign-btn button{
+    font-size: 16px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    margin-top: 37px;
+    font-weight: 700;
+}
+
+.sign-btn button:hover {
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    font-size: 25px;
+    margin-top: 25px;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.footer a{
+    color: #CC9543;
+    text-decoration: none;
+}
+
+.footer p{
+    padding: 25px 25px;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    text-decoration: underline;
 }
